@@ -34,6 +34,8 @@ external_stylesheets = [{"href": "https://fonts.googleapis.com/css2?"
     #for Server deploy:
 app =  dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
+server = app.server
+
 app.title = "Human (d)Evolution"
 
     # Setup Headers
